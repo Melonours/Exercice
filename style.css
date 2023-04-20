@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 body {
     font-size: 1em;
     font-family: 'Manrope', sans-serif;
@@ -34,6 +38,14 @@ li {
 header,
 footer {
     background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+section {
+    padding: 80px;
 }
 
 .cta {
@@ -41,11 +53,22 @@ footer {
     font-family: 'Montserrat', sans-serif;
     color: white;
     border-radius: 50px;
+    padding: 20px 30px;
+
 }
 
 .contenu {
     border-right: 1px solid #a5b4fc;
     border-bottom: 1px solid #a5b4fc;
+    padding: 50px;
+}
+
+.contenu h2 {
+    margin-top: 30px;
+}
+
+.contenu ul {
+    margin-top: 30px;
 }
 
 a:hover {
@@ -60,3 +83,45 @@ a:hover {
 .lien-icone:hover {
     opacity: 0.5;
 }
+
+.a-propos-main {
+    width: 50%;
+    margin: auto;
+}
+
+footer,
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.accueil-intro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+
+.accueil-photos {
+    background-color: white;
+    padding: 80px;
+}
+
+.accueil-photos h2 {
+    color: #242424;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.accueil-photos div {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+

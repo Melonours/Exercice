@@ -36,3 +36,83 @@
 .accueil-intro div {
     padding-right: 80px;
 }
+
+.section-contact h2 {
+    color: #a5b4fc;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    color: white;
+}
+
+.form-nom-email {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.form-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+input,textarea {
+    padding: 15px;
+    border: none;
+    border-radius: 3px;
+}
+
+label {
+    margin-bottom: 15px;
+}
+
+#send-button  {
+    margin: auto;
+    margin-top: 30px;
+    width: 200px;
+}
+
+@media screen and (max-width: 996px) {
+    .accueil-intro {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .accueil-intro div {
+      padding-right: 0;
+      text-align: center;
+      order: 2;
+    }
+  
+    .accueil-intro img {
+      order: 1;
+      margin-bottom: 20px;
+      width: 100%;
+    }
+  
+    .accueil-photos {
+      padding: 20px;
+    }
+  
+    .accueil-photos div {
+      flex-direction: column;
+    }
+  
+    .section-contact {
+      padding: 50px 20px;
+    }
+  
+    .form-nom-email {
+      flex-direction: column;
+      gap: 0;
+    }
+  }
